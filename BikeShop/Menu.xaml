@@ -1,0 +1,21 @@
+﻿<Page x:Class="BikeShop.Menu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BikeShop"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Menu" Background="White">
+
+    <Grid>
+        <Button Content="Products" HorizontalAlignment="Left" Margin="80,140,0,0" VerticalAlignment="Top" Width="75" Height="75"/>
+        <Button Content="Live Support" HorizontalAlignment="Left" Margin="230,140,0,0" 
+                VerticalAlignment="Top" Width="75" Height="75" Click="Click_Handler_LiveSupport"/>
+        <Button Content="Email Support" HorizontalAlignment="Left" Margin="380,140,0,0" 
+                VerticalAlignment="Top" Width="75" Height="75" Click="Click_Handler_EmailSupport" />
+        <TextBlock HorizontalAlignment="Left" Margin="80,323,0,0" TextWrapping="Wrap" Text="Adventure Works" 
+                   FontSize="48" FontStyle="Oblique" FontWeight="Bold" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
