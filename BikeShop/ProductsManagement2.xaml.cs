@@ -18,20 +18,18 @@ namespace BikeShop
     /// <summary>
     /// Interaction logic for ProductsManagement.xaml
     /// </summary>
-    public partial class ProductsManagement : Page
+    public partial class ProductsManagement2 : Page
     {
         ProductsFactory factory = new ProductsFactory();
-        public ProductsManagement()
+        public ProductsManagement2()
         {
             InitializeComponent();
-            
         }
-
-        
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            dataGrid.ItemsSource = factory.FindProducts(textBox.Text);
+            dataGrid.ItemsSource =
+                factory.FindProducts(textBox.Text);
         }
     }
 }

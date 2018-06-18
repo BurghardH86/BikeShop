@@ -9,7 +9,8 @@
       Title="Menu" Background="White">
 
     <Grid>
-        <Button Content="Products" HorizontalAlignment="Left" Margin="80,140,0,0" VerticalAlignment="Top" Width="75" Height="75"/>
+        <Button Content="Products" HorizontalAlignment="Left" Margin="80,140,0,0" 
+                VerticalAlignment="Top" Width="75" Height="75" Click="Click_Handler_Products"/>
         <Button Content="Live Support" HorizontalAlignment="Left" Margin="230,140,0,0" 
                 VerticalAlignment="Top" Width="75" Height="75" Click="Click_Handler_LiveSupport"/>
         <Button Content="Email Support" HorizontalAlignment="Left" Margin="380,140,0,0" 
